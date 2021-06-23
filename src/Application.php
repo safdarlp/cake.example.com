@@ -135,7 +135,8 @@ class Application extends BaseApplication
             // Do not halt if the plugin is missing
         }
 
-        $this->addPlugin('Migrations');
+        $this->addPlugin('Migrations');        
+        $this->addPlugin('Authentication');
 
         // Load more plugins here
     }
